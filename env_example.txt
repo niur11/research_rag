@@ -1,0 +1,31 @@
+# Azure Blob Storage Configuration
+AZURE_STORAGE_CONNECTION_STRING=your_azure_storage_connection_string_here
+AZURE_CONTAINER_NAME=research-papers
+
+# Azure Cognitive Search Configuration (Optional)
+AZURE_SEARCH_ENDPOINT=your_azure_search_endpoint_here
+AZURE_SEARCH_KEY=your_azure_search_key_here
+AZURE_SEARCH_INDEX_NAME=research-papers-index
+
+# OpenAI Configuration
+OPENAI_API_KEY=
+OPENAI_MODEL=gpt-3.5-turbo
+OPENAI_EMBEDDING_MODEL=text-embedding-ada-002
+
+# Vector Database Configuration
+VECTOR_DB_PATH=./vector_db
+CHUNK_SIZE=1000
+CHUNK_OVERLAP=200
+
+# Processing Configuration
+MAX_FILE_SIZE_MB=50
+
+# RAG Configuration
+TOP_K_RESULTS=5
+SIMILARITY_THRESHOLD=0.7
+
+# Local Storage Configuration
+LOCAL_PDF_DIR=./pdfs
+PROCESSED_DATA_DIR=./processed_data
+ENABLE_LOCAL_STORAGE=true
+LOCAL_STORAGE_BACKUP=true 

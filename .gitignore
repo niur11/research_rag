@@ -1,0 +1,32 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# Ignore environment and secrets
+.env
+.env.*
+
+# Ignore runtime/generated data
+pdfs/
+processed_data/
+vector_db/
+
+# Ignore backup and temp files
+*.bak
+*.swp
+*.tmp
+.DS_Store
+
+# Ignore test outputs
+*.log
+
+# Allow source code and config
+!*.py
+!requirements.txt
+!README.md
+!env_example.txt
+!.gitignore 
